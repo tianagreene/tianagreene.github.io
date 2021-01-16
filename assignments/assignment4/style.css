@@ -80,6 +80,10 @@ h2{
 
 }
 
+.grid .six {
+  background-color: darkolivegreen;
+  height: 300px;
+}
 
 
 .parent .one {
@@ -142,4 +146,15 @@ h2{
   height: 300px;
   top: 1900px;
   right: 460px;
+}
+
+.parent .six {
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #ffac81;
+  position: absolute;
+  top: 2100px;
+  padding-left: 100px; 
 }
