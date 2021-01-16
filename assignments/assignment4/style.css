@@ -1,0 +1,145 @@
+/*
+font-family: rooney-sans, sans-serif;
+
+font-weight: 900;
+
+font-style: italic;
+
+font-family: rooney-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+
+*/* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ECFFB0;
+  margin: 0;
+}
+
+h1{ padding-left: 100px;
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 900;
+  font-style: normal ;
+  font-size: 100px;
+  color: rgb(172, 193, 47);
+}
+
+h2{
+  padding-left: 100px;
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #ffac81;
+  
+  }
+
+
+.grid {
+  display: flex;
+}
+
+.grid div {
+  flex: 1;
+  height: 200px;
+  background-color: #cccccc;
+  margin: 20px;
+}
+
+.grid .one {
+  background-color: #fb8b24; 
+  height: 600px;
+  width: fit-content;
+  
+}
+
+.grid .two {
+  background-color: rgb(255, 179, 15);
+  height: 600px;
+  width: fit-content;
+}
+
+.grid .three {
+  background-color: #f4d35e;
+  height: 600px;
+  width: fit-content;
+}
+
+.grid .four {
+  background-color:crimson;
+  height: 600px;
+  width: fit-content;
+}
+
+.grid .five { background-color: #8FB339;
+
+}
+
+
+
+.parent .one {
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(42, 8, 0, 0.5);
+  position: absolute;
+  top: 1600px;
+  right: 200px;
+  width: 300px;
+  height: 300px;
+  font-size: 60px;
+ 
+}
+
+.parent .two {
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  top: 1600px;
+  left: 210px;
+  color: rgba(42, 8, 0, 0.5);
+  font-size: 68px;
+}
+
+.parent .three {
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(42, 8, 0, 0.5);
+  position: absolute;
+  top: 950px;
+  left: 250px;
+  width: 300px;
+  height: 300px;
+  font-size: 60px;
+}
+.parent .four {
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(42, 8, 0, 0.5);
+  font-size: 60px;
+  position: absolute;
+  top: 950px;
+  right: 190px;
+  width: 300px;
+  height: 300px;
+}
+.parent .five { 
+  font-family: 'rooney-sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(42, 8, 0, 0.5);
+  font-size: 60px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 1900px;
+  right: 460px;
+}
