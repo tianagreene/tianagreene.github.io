@@ -21,16 +21,36 @@ body {
    
   }
 
+  
+
+  .kanye { 
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+    }
+     .kanye img {
+      position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 500px;
+   height: 580px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+
+    }
   .marquee {
     position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
     width: 100vw;
     transform: rotate(0deg);
-    max-width: 100%;
     height: 200px;
     overflow-x: hidden;
-  
+
   }
-  
   .track {
     position: absolute;
     white-space: nowrap;
@@ -62,9 +82,7 @@ header {margin-bottom: 20px;}
 
 /* ensures that your images stretch the width of their containers */
 img { 
-    width: 30%;
-    margin-left: 500px;
-
+    
 }
 
 a { 
