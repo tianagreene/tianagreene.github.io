@@ -1,0 +1,58 @@
+
+body{background-image: linear-gradient(#eb008b,#0033cc);}
+
+main {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    margin: 0;
+    padding: 0;
+    
+  }
+
+ 
+   .gallery {
+    
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    top:100px;
+    
+
+  }
+
+  a {cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/}
+  img {
+    
+   max-width: 60%;
+   max-height: 60%;
+   
+  }
+  
+ 
+
+  .gallery div {
+    flex: 30%;
+  }
+
+
+  .gallery2 {
+  
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    top: -200px;
+   
+  }
+  .gallery2 div {
+    flex: 30%;
+  }
+
+  
