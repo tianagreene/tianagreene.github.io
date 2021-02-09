@@ -10,9 +10,8 @@ font-style: normal;
 
 
 
-body {
+.home-page body {
     background-color: #eb008b;
-    
     margin: 0;
     padding: 0;
     color: #acf708;
@@ -72,13 +71,14 @@ body {
   }
   
 h1 {
-    font-family: 'roc-grotesk-extrawide', sans-serif;
+  font-family: 'roc-grotesk-extrawide', sans-serif;
 
-    font-weight: 600;
+  font-weight: 600;
 
-    font-style: normal;
+  font-style: normal;
 
-    font-size: 48px;
+  font-size: 72px;
+  color: chartreuse;
     
 }
 
@@ -93,6 +93,14 @@ header {margin-bottom: 20px;}
 a { 
     color: red;
     text-decoration: none;
+    font-family: 'roc-grotesk-extrawide', sans-serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+
+    font-size: 36px;
+    color: #0033cc;
      }
 a:hover { color: black; 
 }
@@ -106,3 +114,158 @@ a:hover { color: black;
 @media only screen and (min-width:1224px) {
 
 }
+
+.page-two {
+
+  background-image: linear-gradient(#eb008b,#0033cc);
+}
+
+.page-two main { 
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    margin: 0;
+    padding: 0;
+   
+}
+
+.page-two a { cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/}
+img {
+  
+ max-width: 60%;
+ max-height: 60%;
+ 
+}
+.gallery {
+    
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  top:100px;
+  
+
+}
+
+a {cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/}
+img {
+  
+ max-width: 60%;
+ max-height: 60%;
+ 
+}
+
+
+
+.gallery div {
+  flex: 30%;
+}
+
+
+.gallery2 {
+
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 35vh;
+  margin-left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  top: -200px;
+ 
+}
+.gallery2 div {
+  flex: 30%;
+}
+.page-three { background-image: linear-gradient(#0033cc,#acf708);}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 70px;
+}
+
+.grid-item {
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.page-three a {color: #0033cc;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+
+
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto ;
+  padding: 70px;
+}
+
+.grid-item {
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+a { 
+
+  font-size: 24px;
+  color: #0033cc;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤖</text></svg>") 16 0,auto; }
+
+.page-four 
+
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto ;
+  padding: 70px;
+}
+
+.grid-item {
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.page-five { background-image:linear-gradient(white,#0033cc) ;}
+
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto  ;
+  padding: 70px;
+}
+
+.grid-item {
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+img { max-width: 40vw;}
+
+p {text-align: left;
+  font-family: 'roc-grotesk-extrawide', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color:#4e0fb6;
+}
+
