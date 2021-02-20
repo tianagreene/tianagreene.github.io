@@ -10,20 +10,16 @@ font-style: normal;
 
 
 
-.home-page body {
+.homepage {
     background-color: #eb008b;
     margin: 0;
     padding: 0;
     color: #acf708;
     font-size: 144px;
-    font-weight: 600;
-  
-    
+    font-weight: 600;    
   }
 
-  
-
-  .kanye { 
+  .homepage { 
     width: 100vw;
     position: relative;
     display: flex;
@@ -31,11 +27,12 @@ font-style: normal;
     margin-top: 35vh;
    
     }
-     .kanye img {
+     .homepage a {
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌎</text></svg>") 16 0,auto; /*!emojicursor.app*/
       position: absolute;
-   top: 50%;
-   left: 50%;
+     }
+
+  .kanye-img {
    width: 500px;
    height: 580px;
    margin-top: -250px; /* Half the height */
@@ -88,23 +85,6 @@ header {margin-bottom: 20px;}
 /* ensures that your images stretch the width of their containers */
  
     
-
-
-a { 
-    color: red;
-    text-decoration: none;
-    font-family: 'roc-grotesk-extrawide', sans-serif;
-
-    font-weight: 600;
-
-    font-style: normal;
-
-    font-size: 36px;
-    color: #0033cc;
-     }
-a:hover { color: black; 
-}
-
 
 
 @media only screen and (min-width:768px) {
@@ -196,10 +176,9 @@ img {
   text-align: center;
 }
 
-.page-three a {color: #0033cc;
+.a {color: #0033cc;
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
-
 
 
 .grid-container {
