@@ -5,8 +5,10 @@ font-weight: 300;
 
 font-style: normal; */
 body {
-    background-image:url(images/blob.png) ;
-    background-color: #f7b1c7;
+ 
+  background-image:url(images/blob.png) ;
+  background-color: #f3cdd9;
+  background-size: cover;  
     font-family: lust-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -14,6 +16,7 @@ body {
   }
 
 h1 {
+  margin-bottom: 500px;
     font-size: 72px;
     text-align: center;
 }
