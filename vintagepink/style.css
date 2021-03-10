@@ -23,7 +23,8 @@ h1 {
 
 h2 {
   font-size: 24px;
-  margin-left: 50px;
+  text-align: right;
+  margin-right: 50px;
 }
 
 a:link, a:visited {
@@ -33,38 +34,71 @@ a:link, a:visited {
   text-decoration: none;}
 
 
-  .container {
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #007037;
+    display: block;
+    transition: 0.3s;
+    
+    
+  }
+  
+  .sidebar a:hover {
+    color: #007037;
+  }
+  
+  .sidebar .closebtn {
     position: absolute;
-    right: 20px;
-    display: inline-block;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
     cursor: pointer;
+    color: #007037;
+    padding: 10px 15px;
+    border: none;
+   
   }
   
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color:  #007037;
-    margin: 6px 0;
-    transition: 0.4s;
+  
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
   }
   
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
 
 
 
 
 @media only screen and (min-width: 1024px) {
   h1{font-size: 72px;}
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
 
 
 
