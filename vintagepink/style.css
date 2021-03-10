@@ -89,10 +89,10 @@ a:link, a:visited {
 
 
 
-
 @media only screen and (min-width: 1024px) {
   h1{font-size: 72px;}
-
+  h2 { font-size: 48px;}
+}
 
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -103,4 +103,3 @@ a:link, a:visited {
 
 
 
-}
