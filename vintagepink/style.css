@@ -4,16 +4,20 @@
 font-weight: 300;
 
 font-style: normal; */
-body {
- 
+
+body.home {
   background-image:url(images/blob.png) ;
+  background-size: cover; 
   background-color: #f3cdd9;
-  background-size: cover;  
+  background-repeat: no-repeat;
     font-family: lust-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #007037;
   }
+
+    
+ 
 
 h1 {
   margin-bottom: 100px;
@@ -86,7 +90,35 @@ a:link, a:visited {
     padding: 16px;
   }
   
+ body.socials
+ 
+ { background-image: url(images/squiggles.png);
+   background-size: cover;  
+   background-color: #f3cdd9;
+    font-family: lust-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #007037;
+   
+ }
+  .flex-container {
+  max-width: 200px;
+  display: flex;
+  background-color: none;
+  justify-content: center;
+  flex-wrap:wrap;
+  margin-left: 120px;
+ 
+  
+}
 
+.flex-container > div {
+  background-color: #f7b1c7;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 15px
+}
 
 
 @media only screen and (min-width: 1024px) {
