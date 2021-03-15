@@ -8,7 +8,48 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>About</title>
 </head>
-<body>
+<body class="about">
     
+
+<div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>  
+    
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+<h1>About us</h1>
+<p>We are one of Portland's top vintage stores 
+    located in the popular Hawthorne District. 
+    With over 20 vendors in our 6,000 sq. ft of 
+    space you're sure to find some fantastic 
+    treasures.  We specialize in mid-century 
+    pieces and also have an array of vintage, 
+    retro, industrial, reclaimed, vintage glassware, 
+    lighting and local one of a kind pieces!</p>
+
+    <h2>Open everyday 11am-6pm!</h2>
+
+    <div class="flex-container">
+        <div><img src="images/location.png">   </div>
+
+    <p>2500 SE Hawthorne Blvd.<br>
+        Portland, OR 97214<br>
+<br>
+        503-224-8100<br>
+        vintagepink@live.com</p>
+
+
+
+        
 </body>
 </html>
