@@ -42,14 +42,45 @@
     <div class="flex-container">
         <div><img src="images/location.png">   </div>
 
-    <p>2500 SE Hawthorne Blvd.<br>
+    <li>2500 SE Hawthorne Blvd.<br>
         Portland, OR 97214<br>
+    
 <br>
         503-224-8100<br>
-        vintagepink@live.com</p>
+        vintagepink@live.com</li>
+    </div>
+<br>
+<p>Interested in selling?  We buy items too! <br> 
+    Just drop us a line with your photos attached<br> 
+    and we will get back to you as soon as possible!</p>
+    <br>
+    <br>
 
-
-
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Email:</label><br>
+        <input type="text" id="write" name="email" value=""><br>
+        <form>
+        <input type="radio" id="email" name="updates" value="check">
+        <label for="male">Check here to get email updates</label><br>
+      </form>
+     
+      <form action="/action_page.php">
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="write" name="subject" value=""><br>
+        <br>
+        <label for="message">Message:</label><br>
+        <input type="text" id="write" name="message" value=""><br>
+    </form>
+        <br>
+        <form action="/action_page.php">
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
         
+      </form>
+        <input type="submit" value="Submit">
+      </form> 
+
 </body>
 </html>

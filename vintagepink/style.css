@@ -13,32 +13,6 @@ font-weight: 400;
 font-style: normal;
 */
 
-body.home {
-  background-image:url(images/blob.png) ;
-  background-size: cover; 
-  background-color: #f3cdd9;
-  background-repeat: no-repeat;
-    font-family: lust-sans, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #007037;
-  }
-
-    
- 
-
-h1 {
-  margin-bottom: 100px;
-    font-size: 36px;
-    text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-  text-align: right;
-  margin-right: 50px;
-}
-
 a:link, a:visited {
   
   color:  #007037;
@@ -97,6 +71,33 @@ a:link, a:visited {
     transition: margin-left .5s;
     padding: 16px;
   }
+body.home {
+  background-image:url(images/blob.png) ;
+  background-size: cover; 
+  background-color: #f3cdd9;
+  background-repeat: no-repeat;
+    font-family: lust-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #007037;
+  }
+
+    
+ 
+
+h1 {
+  margin-bottom: 100px;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+
   
  body.socials
  { background-image: url(images/squiggles.png);
@@ -135,10 +136,21 @@ body.about {
     color: #007037;
   }
 p {
+  padding: 10px;
   font-family: degular-text, sans-serif;
 font-weight: 400;
 font-style: normal;
 }
+
+li {
+  margin-top: 20px;
+  padding: 20px;
+  font-family: degular-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+align-items: flex-end;}
+
+
 .flex-container {
   max-width: 1000px;
   display: flex;
@@ -157,11 +169,90 @@ font-style: normal;
   font-size: 30px;
   border-radius: 15px
 }
+form {padding:30px;
+  align-items:center}
+
 
 @media only screen and (min-width: 1024px) {
   h1{font-size: 72px;}
   h2 { font-size: 48px;}
-}
+
+  body.socials
+  { background-image: url(images/squiggles.png);
+    background-size: 170%;  
+    background-color: #f3cdd9;
+     font-family: lust-sans, sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     color: #007037;
+    
+  }
+   .flex-container {
+   max-width: 200px;
+   display: flex;
+   background-color: none;
+   justify-content: center;
+   flex-wrap:wrap;  
+ }
+ 
+ .flex-container > div {
+   background-color: #f7b1c7;
+   margin: 10px;
+   padding: 20px;
+   font-size: 40px;
+   border-radius: 15px
+ }
+ body.about {
+  
+   background-color: #f3cdd9;
+     font-family: lust-sans, sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     color: #007037;
+   }
+   h2{ text-align: center;}
+ p {
+   padding-left: 300px;
+   padding-right: 300px;
+   font-family: degular-text, sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 18px;
+ 
+ }
+ .flex-container {
+   max-width: 1000px;
+   display: flex;
+   background-color: none;
+   justify-content: right;
+   flex-wrap:initial;
+   margin-left: 20px;
+  margin-top: 10px;
+   
+ }
+ 
+ .flex-container > div {
+   background-color: #f7b1c7;
+   margin: 80px;
+   padding: 20px;
+   font-size: 30px;
+   border-radius: 15px
+ }
+
+ 
+
+ }
+ form {padding:30px;
+   align-items:center}
+
+
+
+
+
+
+
+
+
 
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
