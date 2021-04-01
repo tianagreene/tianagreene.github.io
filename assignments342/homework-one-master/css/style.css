@@ -14,7 +14,11 @@ h1 { font-family: rooney-sans,sans-serif;
    
 }
 
-img {max-width: 100vw}
+img {max-width: 100vw;
+    }
+
+.container {position: relative;
+            }
 
 .text { position: absolute;
     top: 8px;
