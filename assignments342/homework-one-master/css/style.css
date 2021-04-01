@@ -1,1 +1,23 @@
-/* Styles for your homework one assignment */
+/* Styles for your homework one assignment 
+
+font-family: rooney-sans,sans-serif;
+font-weight: 900;
+font-style: normal;
+
+*/
+h1 { font-family: rooney-sans,sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    text-align: center;
+    font-size: 72px;
+    color:greenyellow;
+   
+}
+
+img {max-width: 100vw}
+
+.text { position: absolute;
+    top: 8px;
+    left: 16px;}
+
+.one h1 { color:midnightblue;}
