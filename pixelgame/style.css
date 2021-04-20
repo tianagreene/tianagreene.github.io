@@ -4,11 +4,13 @@
   
   .wrapper {
     animation: scroll 70s linear infinite;
-    background:url("http://placekitten.com/200/300"), #111111;
-    color: #eee;
+    background:url("images/background.png");
+    background-repeat:repeat-x;
+    background-size: 490px;
     height: 100vh;
     min-width: 360px;
     width: 100%;
+    margin-top:150px;
     display: flex;
     justify-content: center;
     align-items: center;
