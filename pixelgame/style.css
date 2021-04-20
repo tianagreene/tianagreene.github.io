@@ -1,11 +1,10 @@
-.title {
-    font-size: 2.5rem;
-    font-family: 'Lobster', cursive;
-  }
+
+
+ 
   
   .wrapper {
     animation: scroll 70s linear infinite;
-    background: url("images/background.png"), #111111;
+    background:url("http://placekitten.com/200/300"), #111111;
     color: #eee;
     height: 100vh;
     min-width: 360px;
@@ -22,4 +21,15 @@
      100%{
       background-position:-3000px 0px;
     }
+  }
+  
+  @media (prefers-reduced-motion) {
+    .wrapper { 
+      animation: scroll 200s linear infinite;
+    }
+  }
+  
+  @media (min-width: 670px) {
+   
+    
   }
