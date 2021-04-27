@@ -18,6 +18,12 @@
     perspective-origin: 50% 50%;
     
   }
+
+  img { width: 50%;
+    position: absolute;
+  bottom: 120px;
+  left: 375px;
+  }
   
   @keyframes scroll {
      100%{
