@@ -1,9 +1,13 @@
 
-
- 
+ img { width: 100%;
+  
+}
+ .startbutton { width: 500px;
+  margin:auto; 
+  }
   
   .wrapper {
-    animation: scroll 70s linear infinite;
+    /* animation: scroll 70s linear infinite; */
     background:url("images/background.png");
     background-repeat:repeat-x;
     background-size: 490px;
@@ -19,11 +23,11 @@
     
   }
 
-  img { width: 50%;
-    position: absolute;
-  bottom: 120px;
-  left: 375px;
-  }
+ .forward {animation: scroll 70s linear infinite; }
+
+ .person-space {position: absolute;
+top: 80px;
+left: 45%;}
   
   @keyframes scroll {
      100%{
