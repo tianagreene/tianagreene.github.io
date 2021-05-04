@@ -1,3 +1,8 @@
+/*font-family: dico-code-one, mono;
+
+font-weight: 400;
+
+font-style: normal; */
 
  img { width: 100%;
   
@@ -29,10 +34,49 @@
 top: 80px;
 left: 45%;}
   
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: dico-code-one, mono; 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+
+}
+.arrow {width:50px;
+  position: relative;
+  bottom: 50px;
+  left: 900px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.vs {width:700px;
+  }
+
+.keypad {
+  width:700px
+}
+.alternative{
+  display: flex;
+  
+}
   @keyframes scroll {
      100%{
       background-position:-3000px 0px;
     }
+    
   }
   
   @media (prefers-reduced-motion) {
