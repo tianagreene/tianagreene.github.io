@@ -66,12 +66,21 @@ left: 45%;}
   list-style: none;}
 
 .flex-item {  padding: 5px;
-  width: 500px;
+  width: 600px;
   height: 150px;
   margin-top: 10px;
-  text-align: right;
- }
+ 
 
+ }
+.options {
+  text-align: center;
+  font-family: dico-code-one, mono; 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 200px;
+  list-style: none;
+}
 
   @keyframes scroll {
      100%{
