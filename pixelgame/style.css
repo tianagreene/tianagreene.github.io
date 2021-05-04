@@ -82,6 +82,10 @@ left: 45%;}
   list-style: none;
 }
 
+.person {
+  width:600px
+}
+
   @keyframes scroll {
      100%{
       background-position:-3000px 0px;
