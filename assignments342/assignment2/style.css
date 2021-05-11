@@ -1,0 +1,51 @@
+.st0{fill:#FF931E;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FF931E;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#FF7BAC;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#D9E021;stroke:#000000;stroke-miterlimit:10;}
+	.st5{stroke:#D9E021;stroke-miterlimit:10;}
+	.st6{fill:#ED1C24;stroke:#000000;stroke-miterlimit:10;}
+	.st7{fill:#F15A24;stroke:#000000;stroke-miterlimit:10;}
+	.st8{fill:#FCEE21;stroke:#000000;stroke-miterlimit:10;}
+
+    .svg {
+        width: 100%;
+        height: auto;
+      }
+
+      @keyframes flames  {
+        0%   {transform: scale(1, 1)}
+        50%  {transform: scale(1, 1.1)}
+        100% {transform: scale(1, 1)}
+      }
+      
+      .flames path {
+       
+        animation       : flames .95s ease infinite;
+        transform-origin: center top;
+      }       
+
+
+
+      @keyframes cat-float {
+        0%   {transform: translateY(0)}
+        25%  {transform: translateY(-25px)}
+        75%  {transform: translateY(25px)}
+        100% {transform: translateY(0)}
+      }
+      
+      .cat-float {
+        animation: cat-float 2s linear infinite;
+      }
+     
+      
+      @keyframes eyes {
+        0%        {fill: rgb(246, 250, 4)}
+        20%       {fill: #0084ff}
+        40%, 100% {fill: rgb(163, 5, 255)}
+      }
+      
+      .eyes {
+        animation: eyes 2.5s ease infinite;
+      }
+
