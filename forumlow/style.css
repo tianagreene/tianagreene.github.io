@@ -6,13 +6,16 @@ font-family: ebony, sans-serif;
 font-weight: 500;
 font-style: normal;
 
+font-family: ebony, sans-serif;
+font-weight: 200;
+font-style: normal;
 
 */
 
 
 body.splash {background-color: black;}
 
-h1 , h3 {font-family: ebony, sans-serif;
+h1 ,h2, h3 {font-family: ebony, sans-serif;
     font-weight: 500;
     font-style: normal;
     color: white;}
@@ -61,4 +64,45 @@ h3 {font-size: 36px;}
   img {width: 100%;}
 
   body.greenlow {background-image:url(images/juan-manuel-nunez-mendez-unsplash.jpg);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 50px 0;
+    
+  }
+
+ h1{font-family: ebony,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;}
+
+h2 {font-family: ebony,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;}
+
+p{font-family: ebony,sans-serif;
+  font-weight: 200;
+  font-style:normal;
+font-size: 21px;
+color: white;}
+
+
+
+
+
+
+
+  @media only screen and (max-width: 500px) {
+    .item1 { grid-area: 1 / span 3 / 2 / 4; }
+    .item2 { grid-area: 3 / span 3 / 4; }
   }
